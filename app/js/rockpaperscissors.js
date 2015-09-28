@@ -77,7 +77,7 @@ function playToFive() {
         console.log("Winner this round: " + winner);
         console.log("Player wins:", playerWins + ", Computer wins:", computerWins);
     }
-    console.log("Winner of 5:");
+    console.log("Winner of 5: " + winner);
     //return [playerWins, computerWins];
     return winner;
 }
